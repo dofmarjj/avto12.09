@@ -35,7 +35,7 @@
       rgba(255, 0, 0, 0.207),
       rgba(44, 1, 1, 0.194)
     ),
-    url(/my_img/car-bg.webp) no-repeat center;
+    url(./my_img/car-bg.webp) no-repeat center;
 
   background-position: center top;
   background-size: cover;
