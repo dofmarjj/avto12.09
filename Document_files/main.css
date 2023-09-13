@@ -238,7 +238,7 @@ header .form button {
   position: relative;
   width: 100%;
   z-index: 143;
-  background: url(./Document_files/bg_15.png) no-repeat center 0;
+  background: url(./bg_15.png) no-repeat center 0;
   background-position: center top;
   background-size: cover;
 }
