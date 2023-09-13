@@ -238,7 +238,7 @@ header .form button {
   position: relative;
   width: 100%;
   z-index: 143;
-  background: url(/Document_files/bg_15.png) no-repeat center 0;
+  background: url(./Document_files/bg_15.png) no-repeat center 0;
   background-position: center top;
   background-size: cover;
 }
@@ -300,7 +300,7 @@ header .form button {
   position: absolute;
   right: -90px;
   top: 58px;
-  background: url(/Document_files/sep_3.png) no-repeat;
+  background: url(./Document_files/sep_3.png) no-repeat;
   display: block;
   width: 150px;
   height: 25px;
@@ -437,10 +437,10 @@ header .form button {
   padding-top: 3px;
 }
 .reviews .next-arr2 {
-  background: url(/Document_files/rarr.png);
+  background: url(./Document_files/rarr.png);
 }
 .reviews .prev-arr2 {
-  background: url(/Document_files/larr.png);
+  background: url(./Document_files/larr.png);
 }
 .reviews .next-arr2:hover,
 .reviews .prev-arr2:hover {
