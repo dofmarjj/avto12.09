@@ -133,3 +133,28 @@
 .social-list_link p {
   font-size: 18px;
 }
+
+.map {
+  border-radius: 20px;
+  width: 600px;
+  height: 450px;
+}
+
+@media (max-width: 991px) {
+  .social-list_title {
+    display: none;
+  }
+
+  .social-list {
+    flex-direction: row;
+  }
+
+  .info-block {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .map {
+    width: 90%;
+  }
+}
