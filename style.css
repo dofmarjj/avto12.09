@@ -9,7 +9,7 @@
 
 /* peculiarities */
 
-.block-peculiarities {
+.peculiarities {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -35,6 +35,12 @@
 }
 
 @media (max-width: 768px) {
+  .peculiarities {
+    max-width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .plan .item .image .peculiarities-img {
     width: 50%;
   }
@@ -43,6 +49,13 @@
   }
   .peculiarities-item {
     flex-direction: column;
+    margin: 25px 0 25px 0;
+  }
+}
+
+@media (max-width: 991.99px) {
+  .peculiarities-img {
+    height: 110px;
   }
 }
 
@@ -90,6 +103,10 @@
 }
 
 @media (max-width: 992px) {
+  .application {
+    padding: 90px 0;
+  }
+
   .application-mob-title {
     display: block;
     margin-bottom: 40px;
@@ -119,10 +136,11 @@
 
 .info {
   /* margin: 30px 0 0; */
-  padding: 69px 0;
+  padding: 69px 15px 30px 80px;
   position: relative;
   width: 100%;
-  background-image: linear-gradient(180deg, #fff, #535b6bba, #495365);
+  /* background-image: linear-gradient(180deg, #fff, #535b6bba, #495365); */
+  background-color: #495365e3;
 }
 
 .info-block {
@@ -133,7 +151,8 @@
 }
 
 .info-block h2 {
-  font-size: 45px;
+  font-size: 36px;
+  font-weight: bold;
   color: white;
 }
 
@@ -170,7 +189,8 @@
 
 .contact-item p {
   color: white;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .social-list {
@@ -192,25 +212,36 @@
 }
 
 .map {
-  width: 600px;
-  height: 450px;
+  width: 1000px;
+  height: 550px;
 }
 
 @media (max-width: 991px) {
-  .social-list_title {
-    display: none;
-  }
-
-  .social-list {
-    flex-direction: row;
+  .info {
+    padding: 0 0 20px 0;
+    /* background-image: linear-gradient(180deg, #e5e0e0, #535b6bba, #495365); */
   }
 
   .info-block {
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 50px;
+  }
+
+  .contact-info {
+    width: 100%;
+    padding-left: 60px;
   }
 
   .map {
     width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-info {
+    width: 90%;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
