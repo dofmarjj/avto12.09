@@ -261,6 +261,10 @@
   .map {
     width: 90%;
   }
+
+  .svg-icon {
+    width: 40px;
+  }
 }
 
 @media (max-width: 500px) {
