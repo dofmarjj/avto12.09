@@ -193,6 +193,12 @@
   font-size: 18px;
 }
 
+.contact-item p a{
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .social-list {
   display: flex;
   flex-direction: row;
