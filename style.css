@@ -207,14 +207,13 @@
 .contact-item p a,
 .adress {
   color: white;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
 
 .icon-bg {
   background-color: #e0004f;
-  border-radius: 5px;
   padding: 5px 8px;
 }
 
@@ -256,6 +255,10 @@
   .contact-info {
     width: 100%;
     padding-left: 60px;
+  }
+
+  .contact-item .num p {
+    margin: 0;
   }
 
   .map {
