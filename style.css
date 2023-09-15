@@ -191,9 +191,10 @@
   color: white;
   font-weight: 400;
   font-size: 18px;
+  text-decoration: none;
 }
 
-.contact-item p a{
+.contact-item p a {
   color: white;
   font-weight: 400;
   font-size: 18px;
