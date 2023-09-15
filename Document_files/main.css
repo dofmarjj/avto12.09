@@ -517,20 +517,44 @@ footer .footer-top .contacts a {
   line-height: 1.2;
 }
 
-.rotate {
-  -webkit-transition-duration: 0.8s;
-  transition-duration: 0.8s;
+.animaa .rotate {
+  -webkit-transition-duration: 0s;
+  transition-duration: 0s;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
   overflow: hidden;
 }
-.rotate:hover {
+
+.animaa._active div:nth-child(1) .rotate {
+  -webkit-transition-duration: 1s;
+}
+
+.animaa._active div:nth-child(2) .rotate {
+  -webkit-transition-duration: 1.5s;
+}
+
+.animaa._active div:nth-child(3) .rotate {
+  -webkit-transition-duration: 2s;
+}
+
+.animaa._active div:nth-child(4) .rotate {
+  -webkit-transition-duration: 2.5s;
+}
+
+.animaa._active .rotate {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
   opacity: 0.8;
+}
+
+.rotate:hover {
+  /* -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+  opacity: 0.8; */
 }
 
 header .main-block a {

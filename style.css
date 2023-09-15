@@ -27,6 +27,15 @@
   height: 100%;
   background-color: #80808030;
   padding: 20px;
+
+  transform: translate(0px, 120%);
+  opacity: 0;
+  transition: all 0.4s ease 0s;
+}
+
+.peculiarities-block._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
 }
 
 .peculiarities-img {
