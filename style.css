@@ -7,6 +7,13 @@
   text-decoration: none;
 }
 
+/* About */
+.cls-centre {
+  display: flex;
+  justify-content: center;
+}
+/* / About */
+
 /* peculiarities */
 
 .peculiarities {
@@ -48,6 +55,7 @@
     max-width: 350px;
     margin-right: auto;
     margin-left: auto;
+    gap: 0;
   }
 
   .plan .item .image .peculiarities-img {
@@ -196,17 +204,18 @@
   gap: 0;
 }
 
-.contact-item p a {
+.contact-item p a,
+p {
   color: white;
   font-weight: 400;
   font-size: 18px;
   text-decoration: none;
 }
 
-.contact-item p a {
-  color: white;
-  font-weight: 400;
-  font-size: 18px;
+.icon-bg {
+  background-color: #e0004f;
+  border-radius: 5px;
+  padding: 5px 8px;
 }
 
 .social-list {
@@ -214,6 +223,7 @@
   flex-direction: row;
   padding: 0;
   gap: 25px;
+  align-items: center;
 }
 
 .social-list_link {

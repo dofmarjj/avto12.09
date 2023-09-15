@@ -21,7 +21,7 @@ if (animItems.length > 0) {
       ) {
         animItem.classList.add("_active");
       } else {
-        animItem.classList.remove("_active");
+        // animItem.classList.remove("_active");
       }
     }
   }
