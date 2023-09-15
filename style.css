@@ -260,6 +260,9 @@
   .contact-item .num p {
     margin: 0;
   }
+  .contact-item .adress {
+    margin: 0;
+  }
 
   .map {
     width: 90%;
